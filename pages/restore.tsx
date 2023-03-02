@@ -109,14 +109,15 @@ const Home: NextPage = () => {
           Are you a developer and want to learn how I built this? Watch the{" "}
           <span className="font-bold">YouTube tutorial</span>.
         </a> */}
-        <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-slate-900 sm:text-6xl mb-5">
-          Khôi phục ảnh
+        <h1 className="mx-auto max-w-4xl font-display text-4xl font-bold tracking-normal text-green-500 sm:text-5xl mb-5">
+          Làm nét ảnh
         </h1>
+
         <p className="text-slate-500">
           {" "}
           {/* Obtained this number from Vercel: based on how many serverless invocations happened. */}
           <CountUp start={100000} end={525336} duration={2} separator="," />{" "}
-          ảnh đã được khôi phục.
+          ảnh đã được làm nét.
         </p>
         <ResizablePanel>
           <AnimatePresence exitBeforeEnter>
@@ -155,7 +156,7 @@ const Home: NextPage = () => {
                     />
                   </div>
                   <div className="sm:mt-0 mt-8">
-                    <h2 className="mb-1 font-medium text-lg">Ảnh sau khi khôi phục</h2>
+                    <h2 className="mb-1 font-medium text-lg">Ảnh sau khi làm nét</h2>
                     <a href={restoredImage} target="_blank" rel="noreferrer">
                       <Image
                         alt="restored photo"
@@ -211,7 +212,7 @@ const Home: NextPage = () => {
                     }}
                     className="bg-blue-500 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50 text-white font-medium rounded-full px-6 py-3 mt-8 border-2 border-blue-500"
                   >
-                    Tải ảnh sau khi khôi phục
+                    Tải ảnh sau khi làm nét
                   </button>
                 )}
               </div>

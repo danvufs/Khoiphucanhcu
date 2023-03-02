@@ -26,7 +26,7 @@ const Home: NextPage = () => {
         </a>
         <div className="max-w-4xl">
           <h1 className="text-5xl sm:text-7xl font-bold font-display text-gray-800 mb-8">
-            Khôi phục ảnh cũ{" "}
+            Làm nét ảnh cũ{" "}
             <span className="relative text-blue-500">
               {/* <SquigglyLines /> */}
               <span className="relative font-bold">sử dụng trí tuệ nhân tạo (AI)</span>
@@ -35,7 +35,7 @@ const Home: NextPage = () => {
           </h1>
 
           <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
-            Bạn có ảnh cũ và khuôn mặt bị mờ? Hãy để AI khôi phục chúng nhé. 100% miễn phí!
+            Bạn có ảnh cũ và khuôn mặt bị mờ? Hãy để AI làm nét chúng nhé. 100% miễn phí!
           </p>
           <div className="flex justify-center space-x-4 mb-16">
             {/* <a
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
               className="bg-blue-500 hover:bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8"
               href="/restore"
             >
-              Khôi phục ảnh của bạn
+              Làm nét ảnh của bạn
             </Link>
           </div>
           <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
                   </div>
                 </div>
                 <div className="sm:mt-0 mt-8">
-                  <h2 className="text-lg font-medium mb-2">Ảnh sau khi khôi phục</h2>
+                  <h2 className="text-lg font-medium mb-2">Ảnh sau khi làm nét</h2>
                   <div className="w-96 h-96 rounded-2xl overflow-hidden">
                     <Image
                       alt="Restored photo of my bro"
