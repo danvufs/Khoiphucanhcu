@@ -9,7 +9,7 @@ export default function Footer() {
           href="https://www.linkedin.com/in/danducvu/"
           target="_blank"
           rel="noreferrer"
-          className="font-bold hover:underline transition underline-offset-2"
+          className="font-bold text-red-500 hover:underline transition underline-offset-2"
         >
           DanVu{" "}
         </a>
@@ -18,7 +18,7 @@ export default function Footer() {
           href="https://github.com/danvufs"
           target="_blank"
           rel="noreferrer"
-          className="font-bold hover:underline transition underline-offset-2"
+          className="font-bold text-red-500 hover:underline transition underline-offset-2"
         >
           GitHub {""}
         </a>
@@ -27,10 +27,20 @@ export default function Footer() {
           href="https://play.google.com/store/apps/details?id=com.dancargame.test"
           target="_blank"
           rel="noreferrer"
-          className="font-bold hover:underline transition underline-offset-2"
+          className="font-bold text-red-500 hover:underline transition underline-offset-2"
         >
           Dan Car Game
         </a>
+        <br />
+        <span className="text-center">Special thanks to{" "}
+        <a
+          href=""
+          target="_blank"
+          rel="noreferrer"
+          className="font-bold text-red-500 hover:underline transition underline-offset-2"
+        >
+          Hassan Mghari
+        </a></span>
       </div>
     </footer>
   );
