@@ -25,14 +25,15 @@ const Home: NextPage = () => {
           Ứng dụng được tin dùng bởi hơn <span className="font-semibold">200,000</span> người dùng.
         </a>
         <div className="max-w-4xl">
-          <h1 className="text-5xl sm:text-7xl font-bold font-display text-gray-800 mb-8">
-            Làm nét ảnh cũ{" "}
-            <span className="relative text-blue-500">
-              {/* <SquigglyLines /> */}
-              <span className="relative font-bold">sử dụng trí tuệ nhân tạo (AI)</span>
-            </span>{" "}
-            cho anh chị em.
-          </h1>
+        <h1 className="text-4xl sm:text-6xl font-bold font-display text-gray-800 mb-8">
+  Làm nét ảnh cũ{" "}
+  <span className="relative text-blue-500">
+    {/* <SquigglyLines /> */}
+    <span className="relative font-bold">sử dụng trí tuệ nhân tạo (AI)</span>
+  </span>{" "}
+  cho anh chị em.
+</h1>
+
 
           <p className="mx-auto mt-12 max-w-xl text-lg text-slate-700 leading-7">
             Bạn có ảnh cũ và khuôn mặt bị mờ? Hãy để AI làm nét chúng nhé. 100% miễn phí!
