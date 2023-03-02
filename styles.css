@@ -1,0 +1,12 @@
+/* Override the default label text for the upload dropzone
+.uploader .btn--primary {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: blue !important;
+    
+  }
+  
+  /* Override the default button text for the upload dropzone */
+  .uploader .text-secondary {
+    color: #fcfcfc !important;
+}
