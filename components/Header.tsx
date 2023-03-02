@@ -17,12 +17,12 @@ export default function Header() {
         </h1>
       </Link>
       <a
-       // href="https://vercel.com/templates/next.js/ai-photo-restorer"
+       href="https://play.google.com/store/apps/details?id=com.dancargame.test"
         target="_blank"
         rel="noreferrer"
       >
         <Image
-          alt="Vercel Icon"
+          alt="Dan Car Game"
           src="/vercelLogo.png"
           className="sm:w-10 sm:h-[34px] w-8 h-[28px]"
           width={32}
