@@ -20,7 +20,16 @@ export default function Footer() {
           rel="noreferrer"
           className="font-bold hover:underline transition underline-offset-2"
         >
-          GitHub.
+          GitHub {""}
+        </a>
+        và trải nghiệm{" "}
+        <a
+          href="https://play.google.com/store/apps/details?id=com.dancargame.test"
+          target="_blank"
+          rel="noreferrer"
+          className="font-bold hover:underline transition underline-offset-2"
+        >
+          Dan Car Game
         </a>
       </div>
       {/* <div className="flex space-x-4 pb-4 sm:pb-0">
