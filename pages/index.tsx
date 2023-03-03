@@ -9,7 +9,8 @@ import { Testimonials } from "../components/Testimonials";
 
 const Home: NextPage = () => {
   return (
-    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
+    <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen bg-gradient-to-br from-green-400 to-blue-500">
+
       <Head>
         <title>Khôi phục ảnh cũ</title>
       </Head>
