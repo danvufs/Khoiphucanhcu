@@ -8,27 +8,27 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
           <meta
             name="description"
-            content="Restore your old face photos and keep the memories alive."
+            content="Làm nét ảnh, lưu giữ những giây phút quý giá của bạn."
           />
-          <meta property="og:site_name" content="restorePhotos.io" />
+          <meta property="og:site_name" content="" />
           <meta
             property="og:description"
-            content="Restore your old face photos and keep the memories alive."
+            content="Làm nét ảnh, lưu giữ những giây phút quý giá của bạn."
           />
-          <meta property="og:title" content="Face Photo Restorer" />
+          <meta property="og:title" content="Làm nét ảnh cũ" />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Face Photo Restorer" />
+          <meta name="twitter:title" content="Làm nét ảnh cũ" />
           <meta
             name="twitter:description"
-            content="Restore your old photos and keep the memories alive."
+            content="Làm nét ảnh cũ của bạn."
           />
           <meta
             property="og:image"
-            content="https://restore-photos.vercel.app/og-image.png"
+            content=""
           />
           <meta
             name="twitter:image"
-            content="https://restore-photos.vercel.app/og-image.png"
+            content=""
           />
         </Head>
         <body>
