@@ -24,7 +24,7 @@ export default function Header() {
         href="https://play.google.com/store/apps/details?id=com.dancargame.test"
         target="_blank"
         rel="noreferrer"
-        className="flex items-center space-x-1 text-orange-500 hover:text-orange-600"
+        className="flex items-center space-x-1 text-yellow-200 hover:text-yellow-400"
       >
         <Image
           alt="Dan Car Game"
